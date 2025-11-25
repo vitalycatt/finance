@@ -16,3 +16,5 @@ export {
   MenubarSubTrigger,
   MenubarCheckboxItem,
 } from "./menubar";
+
+export { Tabs, TabsList, TabsTrigger, TabsContent } from "./tabs";
