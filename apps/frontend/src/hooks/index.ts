@@ -1,1 +1,0 @@
-export { useTelegramFullscreen } from "./useTelegramFullscreen";

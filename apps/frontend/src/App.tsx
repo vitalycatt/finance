@@ -1,11 +1,8 @@
+import { PageLayout } from "@/components/templates";
 import { Routes, Route } from "react-router-dom";
-import PageLayout from "@/components/templates/PageLayout";
-import { useTelegramFullscreen } from "@/hooks";
 import { Home, Budgets, Categories, Transactions, Statistics } from "@/pages";
 
 function App() {
-  useTelegramFullscreen();
-
   return (
     <Routes>
       <Route path="/" element={<PageLayout />}>
