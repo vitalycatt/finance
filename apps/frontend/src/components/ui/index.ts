@@ -18,3 +18,16 @@ export {
 } from "./menubar";
 
 export { Tabs, TabsList, TabsTrigger, TabsContent } from "./tabs";
+
+export {
+  Dialog,
+  DialogPortal,
+  DialogOverlay,
+  DialogClose,
+  DialogTrigger,
+  DialogContent,
+  DialogHeader,
+  DialogFooter,
+  DialogTitle,
+  DialogDescription,
+} from "./dialog";
