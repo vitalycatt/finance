@@ -1,0 +1,41 @@
+.navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background-color: hsl(0 0% 100%);
+  padding: 0.5rem;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 0.25rem;
+  background-color: hsl(220 13% 96%);
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .navbar {
+    background-color: hsl(222 47% 11%);
+    border-top-color: hsl(217 33% 17%);
+  }
+
+  .nav-menu {
+    background-color: hsl(217 33% 17%);
+  }
+}
